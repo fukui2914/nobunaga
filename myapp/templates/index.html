@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with GPT-3.5-Turbo</title>
+    <script src="/static/app.js"></script>
+</head>
+<body>
+    <div class="chat-popup" id="myForm">  
+        <form class="form-container" onsubmit="sendMessage(event)">  
+            <h1>織田信長との会話</h1>  
+
+            <div id="chat-messages">
+            </div>
+
+            <label for="msg"><b>メッセージ</b></label>  
+            <textarea id="user-input" placeholder="メッセージを入力" name="msg" required></textarea>  
+
+            <button type="submit" class="btn">送信</button>    
+        </form>
+    </div>
+</body>
+</html>
+
